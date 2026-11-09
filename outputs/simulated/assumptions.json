@@ -1,0 +1,57 @@
+{
+  "NOTE": "SIMULATED, illustrative only. Not evidence.",
+  "assessment_weeks_used": [
+    3,
+    7,
+    14,
+    18,
+    23,
+    28
+  ],
+  "C2_one_small_thing": {
+    "weeks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "targets": {
+      "Withdrawn": 0.6,
+      "Fail": 0.5
+    },
+    "hazard_cut": 0.4,
+    "activity_lift": 0.1
+  },
+  "C6_deadline_runway": {
+    "weeks_before_each_assessment": 2,
+    "targets": {
+      "Withdrawn": 0.4,
+      "Fail": 0.5
+    },
+    "hazard_cut": 0.25,
+    "activity_lift": 0.08
+  },
+  "C7_welcome_back": {
+    "weeks": [
+      10,
+      11,
+      12,
+      13,
+      24,
+      25,
+      26,
+      27
+    ],
+    "targets": {
+      "Withdrawn": 0.4,
+      "Fail": 0.5,
+      "Pass": 0.3,
+      "Distinction": 0.3
+    },
+    "hazard_cut": 0.35,
+    "break_dip_recovered": 0.3
+  },
+  "pass_points_per_active_day": 2.0,
+  "active_days_per_extra_active_week": 2.0,
+  "seed": 7
+}
