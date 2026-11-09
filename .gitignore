@@ -1,0 +1,7 @@
+# Raw OULAD CSVs are not committed (studentVle.csv alone is ~450 MB). See data/README.md.
+data/*.csv
+processed/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store

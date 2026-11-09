@@ -47,7 +47,8 @@ import seaborn as sns
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "outputs" / "simulated"
 OUT.mkdir(parents=True, exist_ok=True)
-DATA = Path("/mnt/project-files/OULAD Learning Analytics Dataset")
+# Same lookup as oulad_clean.py: $OULAD_DATA_DIR, then ./data/, then this folder.
+from oulad_clean import DATA_DIR as DATA  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # ASSUMPTIONS (adjustable). Modest by design.
